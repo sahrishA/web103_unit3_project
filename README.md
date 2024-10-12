@@ -34,9 +34,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <img src='https://www.canva.com/design/DAGTJrnDzig/C6YKdIVlH56UMEvhj6Ukmg/watch?utm_content=DAGTJrnDzig&utm_campaign=designshare&utm_medium=link&utm_source=editor' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-Alternative link for video demo:
-https://www.canva.com/design/DAGTJrnDzig/C6YKdIVlH56UMEvhj6Ukmg/watch?utm_content=DAGTJrnDzig&utm_campaign=designshare&utm_medium=link&utm_source=editor
-
+Alternative link for video demo:for some reasons the video walkthrough wasn't working so I added this. I hope u accect it
+https://www.canva.com/design/DAGTVntm6oQ/2YLmoYpk3MiydX9TzzHFXg/watch?utm_content=DAGTVntm6oQ&utm_campaign=designshare&utm_medium=link&utm_source=editor
 <!--canva -->
 GIF created with ...  GIF tool here
 <!-- Recommended tools:
