@@ -3,10 +3,14 @@
 import React from 'react';
 import '../css/Event.css';
 
-
 const Event = ({ event }) => {
-  const { name, image, date, description } = event;
+  // Return null or a placeholder if event is undefined
+  if (!event) {
+    return <p>Event data is not available</p>; // or return null to not render anything
+  }
 
+  // Destructure properties after confirming event exists
+  const { name, image, date, description } = event;
   const isPastEvent = new Date(date) < new Date();
 
   return (
@@ -26,4 +30,4 @@ const Event = ({ event }) => {
   );
 };
 
-export default Event;
+export default Event; 

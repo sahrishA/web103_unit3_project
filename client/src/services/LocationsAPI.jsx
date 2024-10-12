@@ -1,5 +1,7 @@
+// client/src/services/LocationsAPI.jsx
+
 import React, { useState, useEffect } from 'react';
-import LocationsAPI from '../services/LocationsAPI';
+import LocationsAPI from './LocationsAPI';
 import unitygrid from '../assets/unitygrid.jpg';
 import '../css/Locations.css';
 
@@ -36,17 +38,16 @@ const Locations = () => {
 
     polygons.forEach((element) => {
       element.addEventListener('mouseover', (event) => {
-        const buttonElement = document.getElementById(`${event.target.id}button`);
-        buttonElement.style.opacity = 1;
+          const buttonElement = document.getElementById(`${event.target.id}button`); // Use backticks here
+          buttonElement.style.opacity = 1;
       });
-
+  
       element.addEventListener('mouseleave', (event) => {
-        const buttonElement = document.getElementById(`${event.target.id}button`);
-        buttonElement.style.opacity = 0;
+          const buttonElement = document.getElementById(`${event.target.id}button`); // Use backticks here
+          buttonElement.style.opacity = 0;
       });
-    });
-  };
-
+  });
+  
   return (
     <div className='available-locations'>
       <div id='venue1button' className='venue1-button-overlay'>
@@ -81,5 +82,5 @@ const Locations = () => {
     </div>
   );
 };
-
+};
 export default Locations;

@@ -50,7 +50,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Enable CORS for cross-origin requests
+// Enable CORS for cross-origin requ ests
 app.use(cors());
 
 // Parse incoming JSON requests
@@ -59,7 +59,8 @@ app.use(express.json());
 // API routes
 app.use('/api/events', eventsRouter);
 app.use('/api/locations', locationsRouter);
-
+// app.use('/api', eventsRouter);
+// app.use('/api', locationsRouter);
 // Test endpoint
 app.get('/', (req, res) => {
   res.status(200).send('<h1 style="text-align: center; margin-top: 50px;">UnityGrid Plaza API</h1>');
